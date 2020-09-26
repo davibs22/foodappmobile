@@ -1,0 +1,6 @@
+module Pods_foodappmobile {
+  umbrella header "Pods-foodappmobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
