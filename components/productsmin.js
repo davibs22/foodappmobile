@@ -3,8 +3,6 @@ import { Text, View, TouchableOpacity, StyleSheet, Image} from 'react-native';
 import { Rating } from 'react-native-ratings';
 import { Left } from 'native-base';
 
-
-//'../assets/img/0.jpg'
 const ProductsMin = (props) => {
     return (
         <View style={styles.background}>

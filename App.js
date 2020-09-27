@@ -7,22 +7,10 @@ import { Container, Text, Header, Left, Body, Right, Title } from 'native-base';
 export default function App() {
   const [isLoading, setLoading] = useState(true);
   const [data, setData] = useState([]);
-
-  /*useEffect(() => {
-    fetch('http://192.168.0.9:3000/products', {method: "GET"})
-      /*.then((response) => {response.json()})
-      /*.then((json) => setData(json.products))*/
-      /*.catch((error) => console.log(error))r
-      .finally(() => setLoading(False));
-      .then((response) => {console.log(response.body)})
-  },[])*/
+  
   useEffect(() => {
     fetch('http://192.168.0.9:3000/products')
       .then((response) => response.json())
-      /*.then((json) => setData(json.products))
-      .catch((error) => console.error(error))
-      .finally(() => setLoading(false))*/
-      /*.then((responseJson) => {console.log(responseJson)})*/
       .then((responseJson) => setData(responseJson))
   }, []);
   //console.log(data)
