@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="foodappmobile/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1108108221/expo-constants.iml" filepath="$PROJECT_DIR$/.idea/modules/-1108108221/expo-constants.iml" group="foodappmobile/expo-constants" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1666758918/expo-error-recovery.iml" filepath="$PROJECT_DIR$/.idea/modules/1666758918/expo-error-recovery.iml" group="foodappmobile/expo-error-recovery" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-327034732/expo-file-system.iml" filepath="$PROJECT_DIR$/.idea/modules/-327034732/expo-file-system.iml" group="foodappmobile/expo-file-system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1728012901/expo-font.iml" filepath="$PROJECT_DIR$/.idea/modules/-1728012901/expo-font.iml" group="foodappmobile/expo-font" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1864094737/expo-image-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/1864094737/expo-image-loader.iml" group="foodappmobile/expo-image-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1363190665/expo-keep-awake.iml" filepath="$PROJECT_DIR$/.idea/modules/1363190665/expo-keep-awake.iml" group="foodappmobile/expo-keep-awake" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1348184116/expo-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1348184116/expo-linear-gradient.iml" group="foodappmobile/expo-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/340858113/expo-location.iml" filepath="$PROJECT_DIR$/.idea/modules/340858113/expo-location.iml" group="foodappmobile/expo-location" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/646882680/expo-permissions.iml" filepath="$PROJECT_DIR$/.idea/modules/646882680/expo-permissions.iml" group="foodappmobile/expo-permissions" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/687832198/expo-splash-screen.iml" filepath="$PROJECT_DIR$/.idea/modules/687832198/expo-splash-screen.iml" group="foodappmobile/expo-splash-screen" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/767056216/expo-sqlite.iml" filepath="$PROJECT_DIR$/.idea/modules/767056216/expo-sqlite.iml" group="foodappmobile/expo-sqlite" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/575985086/expo-updates.iml" filepath="$PROJECT_DIR$/.idea/modules/575985086/expo-updates.iml" group="foodappmobile/expo-updates" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodappmobile.iml" filepath="$PROJECT_DIR$/.idea/modules/foodappmobile.iml" group="foodappmobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1600363027/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1600363027/react-native-gesture-handler.iml" group="foodappmobile/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2035189745/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-2035189745/react-native-reanimated.iml" group="foodappmobile/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/205052590/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/205052590/react-native-screens.iml" group="foodappmobile/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1667297798/unimodules-app-loader.iml" filepath="$PROJECT_DIR$/.idea/modules/1667297798/unimodules-app-loader.iml" group="foodappmobile/unimodules-app-loader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1080831798/unimodules-barcode-scanner-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1080831798/unimodules-barcode-scanner-interface.iml" group="foodappmobile/unimodules-barcode-scanner-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2110051864/unimodules-camera-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/2110051864/unimodules-camera-interface.iml" group="foodappmobile/unimodules-camera-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1836274196/unimodules-constants-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1836274196/unimodules-constants-interface.iml" group="foodappmobile/unimodules-constants-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1362723802/unimodules-core.iml" filepath="$PROJECT_DIR$/.idea/modules/-1362723802/unimodules-core.iml" group="foodappmobile/unimodules-core" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1502834107/unimodules-face-detector-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1502834107/unimodules-face-detector-interface.iml" group="foodappmobile/unimodules-face-detector-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2101987355/unimodules-file-system-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-2101987355/unimodules-file-system-interface.iml" group="foodappmobile/unimodules-file-system-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1403618946/unimodules-font-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/1403618946/unimodules-font-interface.iml" group="foodappmobile/unimodules-font-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2016774536/unimodules-image-loader-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/-2016774536/unimodules-image-loader-interface.iml" group="foodappmobile/unimodules-image-loader-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2011379657/unimodules-permissions-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/2011379657/unimodules-permissions-interface.iml" group="foodappmobile/unimodules-permissions-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1047811026/unimodules-react-native-adapter.iml" filepath="$PROJECT_DIR$/.idea/modules/-1047811026/unimodules-react-native-adapter.iml" group="foodappmobile/unimodules-react-native-adapter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/132700286/unimodules-sensors-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/132700286/unimodules-sensors-interface.iml" group="foodappmobile/unimodules-sensors-interface" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/528424216/unimodules-task-manager-interface.iml" filepath="$PROJECT_DIR$/.idea/modules/528424216/unimodules-task-manager-interface.iml" group="foodappmobile/unimodules-task-manager-interface" />
+    </modules>
+  </component>
+</project>

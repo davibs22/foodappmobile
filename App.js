@@ -1,12 +1,42 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, FlatList, View, ActivityIndicator } from 'react-native';
+import ProductsMin from './components/productsmin.js'
+import { Container, Text, Header, Left, Body, Right, Title } from 'native-base';
 
 export default function App() {
+  const [isLoading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+
+  /*useEffect(() => {
+    fetch('http://192.168.0.9:3000/products', {method: "GET"})
+      /*.then((response) => {response.json()})
+      /*.then((json) => setData(json.products))*/
+      /*.catch((error) => console.log(error))r
+      .finally(() => setLoading(False));
+      .then((response) => {console.log(response.body)})
+  },[])*/
+  useEffect(() => {
+    fetch('http://192.168.0.9:3000/products')
+      .then((response) => response.json())
+      /*.then((json) => setData(json.products))
+      .catch((error) => console.error(error))
+      .finally(() => setLoading(false))*/
+      /*.then((responseJson) => {console.log(responseJson)})*/
+      .then((responseJson) => setData(responseJson))
+  }, []);
+  //console.log(data)
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <StatusBar/>
+      <View style={styles.titleContents}>
+        <Text style={styles.title}>Products</Text>
+      </View>
+      <FlatList contentContainerStyle={{flexGrow: 1,}}
+          data={data}
+          renderItem={({item}) => <ProductsMin titleName = {item.title} typeName = {item.type} ratingValue = {item.rating} price = {item.price}/> }
+          keyExtractor = { (item, index) => index.toString() }
+      />
     </View>
   );
 }
@@ -14,8 +44,18 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#FFFFFF'
   },
+  titleContents: {
+    backgroundColor: '#EB5757',
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingBottom: 10,
+    paddingTop: 34
+  },
+  title: {
+    fontSize: 30,
+    color: '#FFFFFF',
+    fontWeight: '700'
+  }
 });
